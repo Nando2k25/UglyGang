@@ -5,24 +5,33 @@
 }
 
 body{
-    background-color: rgb(103, 102, 102);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin: 0%;
 }
 
 .navbar {
-    background-color: darkgray;
+    background-color: rgb(255, 255, 255);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding: 12px;
 }
 .logo img {
-    width: 200px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    height: 200px;
 }
 
 .navlinks{
     display: flex;
-    gap: 30px;
-    list-style: none;
+    gap: 20px;
+    list-style: none;  
+   justify-content: center;  
 }
 
 .navlinks li a {
@@ -32,7 +41,7 @@ body{
 }
 
 .navlinks li a:hover {
-    color: white;
+    color: whitesmoke;
     transition: 0,6s;
 }
 .dropdown a {
@@ -47,7 +56,7 @@ body{
     visibility: hidden;
     transform: translatey(10px);
     position: absolute;
-    background-color: azure;
+    background-color: grey;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -74,6 +83,155 @@ body{
     transform: translateY(0);
     transition: 0.6s;
 }
-.minhalogo{
-    width: 100px;
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    max-width: 200px;
+    margin-bottom: 10px;
 }
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.produtos {
+    background-color: rgb(255, 3, 3);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-text-fill-color: white;
+}
+
+.produtos h1 {
+    font-size: 50px;
+}
+
+.produtos-card {
+    background-color:rgb(255, 3, 3);
+    margin-top: 70px;
+    width: 200px;
+    padding: 75px;
+    border-radius: 3%;
+    transition: transform 0.3s;
+    font-family: Arial, Helvetica, serif;
+}
+
+.produtos-card img{
+    border-radius: 8%;
+    width: 200px;
+    height: 150px;
+}
+
+
+
+.produtos-card:hover {
+    transform: translateY(-10px);
+}
+
+.produtos-card button {
+    background-color:rgb(33, 18, 108) ;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: 50px;
+    margin-top: 10px;
+    border-radius: 8%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+}
+
+.produtos-card button:hover {
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+
+.produtos-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(33, 18, 108);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
