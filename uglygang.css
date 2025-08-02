@@ -29,19 +29,21 @@ body{
 
 .navlinks{
     display: flex;
-    gap: 20px;
+    gap: 50px;
     list-style: none;  
    justify-content: center;  
+   font-size: larger;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .navlinks li a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 200;
 }
 
 .navlinks li a:hover {
-    color: whitesmoke;
+    color: #787878;
     transition: 0,6s;
 }
 .dropdown a {
@@ -56,7 +58,7 @@ body{
     visibility: hidden;
     transform: translatey(10px);
     position: absolute;
-    background-color: grey;
+    background-color:#4A4746;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -68,7 +70,7 @@ body{
 .dropdown-menu li a {
     padding: 12px;
     display: block;
-    color: darkgrey;
+    color: darkgray;
     white-space: nowrap;
 }
 
@@ -91,11 +93,7 @@ body{
     max-width: 200px;
     margin-bottom: 10px;
 }
-.header{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
+
 
 .navlinks a {
     text-decoration: none;
@@ -104,7 +102,7 @@ body{
 }
 
 .produtos {
-    background-color: rgb(255, 3, 3);
+    background-color: rgb(255, 255,255);
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     -webkit-text-fill-color: white;
@@ -112,22 +110,15 @@ body{
 
 .produtos h1 {
     font-size: 50px;
+    color: rgb(0, 0, 0);
 }
 
-.produtos-card {
-    background-color:rgb(255, 3, 3);
-    margin-top: 70px;
-    width: 200px;
-    padding: 75px;
-    border-radius: 3%;
-    transition: transform 0.3s;
-    font-family: Arial, Helvetica, serif;
-}
+
 
 .produtos-card img{
     border-radius: 8%;
     width: 200px;
-    height: 150px;
+    height: 250px;
 }
 
 
@@ -137,9 +128,9 @@ body{
 }
 
 .produtos-card button {
-    background-color:rgb(33, 18, 108) ;
+    background-color:rgb(78, 77, 80) ;
     color: rgb(0, 0, 0);
-    padding: 12px 20px;
+    padding: 20px;
     border: 50px;
     margin-top: 10px;
     border-radius: 8%;
@@ -158,47 +149,16 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: rgb(33, 18, 108);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.produtos-card h3{
+    font-size: larger;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+}
 
 
 
