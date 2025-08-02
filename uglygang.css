@@ -1,30 +1,54 @@
-
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 1px;
+    padding: 1px
+    
 }
+
+
+.header nav ul{
+    list-style: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    align-items: baseline;
+    background-color: darkgray;
+    color: rgb(122, 42, 42);
+}
+
+.header nav ul li a{
+    color: #28403D;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
 
 body{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    margin: 0%;
+    background-color:darkgray ;
 }
-
 .navbar {
-    background-color: rgb(255, 255, 255);
+    background-color: darkgray;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 12px;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    height: 150px;
 }
 .logo img {
-    width: 240px;
+    width: 150px;
     display: flex;
     align-items: center;
-    margin: 0px;
-    height: 200px;
+    margin: 10px;
+    height: 190px;
+    list-style: none;
+    margin-top: 100px;
 }
 
 .navlinks{
@@ -34,6 +58,7 @@ body{
    justify-content: center;  
    font-size: larger;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 100%;
 }
 
 .navlinks li a {
@@ -92,6 +117,7 @@ body{
     margin: 0px;
     max-width: 200px;
     margin-bottom: 10px;
+    
 }
 
 
@@ -101,24 +127,32 @@ body{
     font-weight: bold;
 }
 
+
 .produtos {
-    background-color: rgb(255, 255,255);
+    background-color: darkgray;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: rgb(0, 0, 0);
 }
 
 .produtos h1 {
     font-size: 50px;
-    color: rgb(0, 0, 0);
 }
 
-
+.produtos-card {
+    background-color:transparent;
+    margin-top: 100px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 3%;
+    transition: transform 0.3s;
+    font-family: Arial, Helvetica, serif;
+}
 
 .produtos-card img{
-    border-radius: 8%;
-    width: 200px;
-    height: 250px;
+    border-radius: 1%;
+    width: 250px;
+    height: 300px;
 }
 
 
@@ -128,9 +162,9 @@ body{
 }
 
 .produtos-card button {
-    background-color:rgb(78, 77, 80) ;
+    background-color:rgb(62, 62, 65) ;
     color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 12px 20px;
     border: 50px;
     margin-top: 10px;
     border-radius: 8%;
@@ -148,39 +182,26 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
-    background-color: rgb(255, 255, 255);
+    gap: 10px;
+    background-color: darkgray;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.produtos-card h3{
-    font-size: larger;
-    font-family: fantasy;
+.produtos h1{
+    font-size: 50px;
     color: rgb(0, 0, 0);
 }
+.produtos-card h3{
+    font-size: 20px;
+    color: rgb(0, 0, 0); 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.produtos-card p {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-top: 5px;
+}
 
 
 
